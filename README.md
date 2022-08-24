@@ -25,7 +25,7 @@ Figure 2, below, shows a screen shot of the data captured in the .txt file.
 Figure 2, AppData.txt
  
 Figure 3, below, shows the script running in the Windows command window.  Program executes from left to right. ------------------------------------------------------------------------------------->
- ![Fgure 3](cmd.jpg)
+ ![Fgure 3](CMD.jpg)
 Figure 3, Assignment07_Kenji.py running in the Windows command window
 It can be seen here that the file, previously saved when running the script in PyCharm, is read in and creates the object when run from the CMD window.  Different instances of running the script using different methods shows successful pickling/unpickling of the data.
 Summary
