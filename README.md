@@ -30,18 +30,18 @@ For this exercise I used a previous assignment as a template.  The pickling proc
 The error handling is done in the IO section of code which we’ve modified from a previous example.  In this example we use a menu of options to show saved data, add new data, and save new data.  It’s here we call the previously defined functions and establish alternate behavior if any number of errors are encountered.  For this example, I want the ID category to be whole integer numbers and the NAME category to be letters only and contain no numbers.  Also, in the event the user tries to display data before any data has been saved there is a catch to inform the user the file does not yet exist.  
 
 Detailed code is included that shows the method of handling these errors but at a high level I used the try-except method to govern normal behavior and handle errors that may arise.  The try-except block allows for the execution of the code and provides a mechanism to define specific behavior in the event of an error.  It also allows targeting of specific error types; a divide-by-zero error may drive a different program behavior and message to the user than a file-not-found error, for example.    
- 
+
 This assignment calls for documentation of the script running in both PyCharm and the OS command window.  Figure 1 below shows screen shots of the program running in PycCharm.  Program executes from left to right --------------------------------->
- ![Figure 1, Assignment07_Kenji.py running in PyCharm](PyCharm.jpg)
-Figure 1, Assignment07_Kenji.py running in PyCharm
+![Figure 1, Assignment07_Kenji.py running in PyCharm](PyCharm.jpg)
+<sub>Figure 1, Assignment07_Kenji.py running in PyCharm</sub>
 
 Figure 2, below, shows a screen shot of the data captured in the .txt file.
- ![Figure 2](saved_file_screen_shot.jpg)
-Figure 2, AppData.txt
+![Figure 2](saved_file_screen_shot.jpg)
+<sub>Figure 2, AppData.txt</sub>
  
 Figure 3, below, shows the script running in the Windows command window.  Program executes from left to right. ------------------------------------------------------------------------------------->
- ![Fgure 3](CMD.jpg)
-Figure 3, Assignment07_Kenji.py running in the Windows command window
+![Fgure 3](CMD.jpg)
+<sub>Figure 3, Assignment07_Kenji.py running in the Windows command window</sub>
 
 It can be seen here that the file, previously saved when running the script in PyCharm, is read in and creates the object when run from the CMD window.  Different instances of running the script using different methods shows successful pickling/unpickling of the data.
 
