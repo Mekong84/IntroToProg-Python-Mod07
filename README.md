@@ -18,7 +18,7 @@ The error handling is done in the IO section of code which we’ve modified from
 Detailed code is included that shows the method of handling these errors but at a high level I used the try-except method to govern normal behavior and handle errors that may arise.  The try-except block allows for the execution of the code and provides a mechanism to define specific behavior in the event of an error.  It also allows targeting of specific error types; a divide-by-zero error may drive a different program behavior and message to the user than a file-not-found error, for example.    
  
 This assignment calls for documentation of the script running in both PyCharm and the OS command window.  Figure 1 below shows screen shots of the program running in PycCharm.  Program executes from left to right --------------------------------->
- ![Figure 1, Assignment07_Kenji.py running in PyCharm](main/pycharm.jpg)
+ ![Figure 1, Assignment07_Kenji.py running in PyCharm](/assets/images/PyCharm.jpg)
 Figure 1, Assignment07_Kenji.py running in PyCharm
 Figure 2, below, shows a screen shot of the data captured in the .txt file.
  
