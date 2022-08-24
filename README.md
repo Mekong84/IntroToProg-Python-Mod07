@@ -38,7 +38,7 @@ This assignment calls for documentation of the script running in both PyCharm an
 Figure 2, below, shows a screen shot of the data captured in the .txt file.
 ![Figure 2](saved_file_screen_shot.jpg)
 <sub>Figure 2, AppData.txt</sub>
- 
+
 Figure 3, below, shows the script running in the Windows command window.  Program executes from left to right. ------------------------------------------------------------------------------------->
 ![Fgure 3](CMD.jpg)
 <sub>Figure 3, Assignment07_Kenji.py running in the Windows command window</sub>
