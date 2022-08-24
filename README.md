@@ -21,7 +21,7 @@ This assignment calls for documentation of the script running in both PyCharm an
  ![Figure 1, Assignment07_Kenji.py running in PyCharm](PyCharm.jpg)
 Figure 1, Assignment07_Kenji.py running in PyCharm
 Figure 2, below, shows a screen shot of the data captured in the .txt file.
- ![Figure 2](saved file screen shot.jpg)
+ ![Figure 2](saved_file_screen_shot.jpg)
 Figure 2, AppData.txt
  
 Figure 3, below, shows the script running in the Windows command window.  Program executes from left to right. ------------------------------------------------------------------------------------->
